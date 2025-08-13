@@ -2,3 +2,7 @@
 1754511021 source:u:\poo\hello\main.cpp
 	<iostream>
 
+1755116528 source:u:\poo\aula01\main.cpp
+	<iostream>
+	<locale.h>
+
