@@ -1,0 +1,47 @@
+# Diretórios de build
+/build/
+out/
+bin/
+Debug/
+Release/
+obj/
+
+# Arquivos temporários
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.manifest
+*.idb
+*.pch
+*.swp
+*.swo
+.vscode/
+
+# Arquivos de IDEs
+.project
+.classpath
+.settings/
+*.vcxproj.user
+*.sln.docstates
+.vs/
+.idea/
+
+# Arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de configuração de projeto
+*.suo
+*.sdf
+
+# Arquivos de log
+*.log
+
+# Outros arquivos que podem ser ignorados
+*.user
+*.ilk
+*.pdb
