@@ -1,4 +1,6 @@
 # depslib dependency file v1.0
-1755715053 source:u:\poo\aula02\main.cpp
+1755719873 source:u:\poo\aula02\main.cpp
 	<iostream>
+	<locale>
+	<string>
 
