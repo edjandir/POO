@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1756321712 source:u:\poo\aula3\main.cpp
+	<iostream>
+	<locale>
+	"exercicios.h"
+
+1756323016 u:\poo\aula3\exercicios.h
+	<iostream>
+
