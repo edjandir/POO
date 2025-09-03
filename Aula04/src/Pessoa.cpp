@@ -7,7 +7,7 @@ Pessoa::Pessoa()
 
 Pessoa::~Pessoa()
 {
-    cout << "Pessoa " << nome << " destruída!" << endl;
+   // cout << "Pessoa " << nome << " destruída!" << endl;
 }
 
 void Pessoa::mostra() {

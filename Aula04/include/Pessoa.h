@@ -20,7 +20,6 @@ class Pessoa
         void Setdata_nascimento(string val) { data_nascimento = val; }
 
         void mostra();
-
     protected:
 
     private:

@@ -1,12 +1,25 @@
 # depslib dependency file v1.0
-1756410119 source:u:\poo\aula04\main.cpp
+1756929137 source:u:\poo\aula04\main.cpp
 	<iostream>
 	<Pessoa.h>
 	<locale.h>
+	<UF.h>
+	<Cidade.h>
 
-1756409897 u:\poo\aula04\include\pessoa.h
+1756919590 u:\poo\aula04\include\pessoa.h
 	<iostream>
 
-1756410046 source:u:\poo\aula04\src\pessoa.cpp
+1756926907 source:u:\poo\aula04\src\pessoa.cpp
 	"Pessoa.h"
+
+1756926923 source:u:\poo\aula04\src\uf.cpp
+	"UF.h"
+	<iostream>
+
+1756929046 u:\poo\aula04\include\uf.h
+	<string>
+
+1756929174 u:\poo\aula04\include\cidade.h
+	<string>
+	<UF.h>
 

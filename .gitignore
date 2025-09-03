@@ -6,6 +6,9 @@ Debug/
 Release/
 obj/
 
+# Pastas
+solution/
+
 # Arquivos temporários
 *.o
 *.obj
@@ -45,3 +48,4 @@ desktop.ini
 *.user
 *.ilk
 *.pdb
+*.pdf
