@@ -1,20 +1,29 @@
 # depslib dependency file v1.0
-1757529931 source:u:\poo\inventario\main.cpp
+1757535390 source:u:\poo\inventario\main.cpp
 	<iostream>
 	<locale.h>
 	<Item.h>
 	<Inventario.h>
+	<Personagem.h>
 
-1757525637 source:u:\poo\inventario\src\item.cpp
+1757533651 source:u:\poo\inventario\src\item.cpp
 	"Item.h"
 
 1757525507 u:\poo\inventario\include\item.h
 	<iostream>
 
-1757529710 source:u:\poo\inventario\src\inventario.cpp
+1757535278 source:u:\poo\inventario\src\inventario.cpp
 	"Inventario.h"
 
-1757529393 u:\poo\inventario\include\inventario.h
+1757535262 u:\poo\inventario\include\inventario.h
 	<vector>
 	<Item.h>
+	<Personagem.h>
+	<iostream>
+
+1757534716 source:u:\poo\inventario\src\personagem.cpp
+	"Personagem.h"
+
+1757533361 u:\poo\inventario\include\personagem.h
+	<iostream>
 

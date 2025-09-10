@@ -1,6 +1,7 @@
 #include "Item.h"
 
 void Item::mostra() {
-    cout << "\nNome: " << Getnome() << "\nTipo: " << Gettipo()
+    cout << "\n===== Item ====="
+        << "\nNome: " << Getnome() << "\nTipo: " << Gettipo()
         << "\nValor: " << Getvalor() << endl;
 }

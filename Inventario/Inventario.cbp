@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Inventario.h" />
 		<Unit filename="include/Item.h" />
+		<Unit filename="include/Personagem.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Inventario.cpp" />
 		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Personagem.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
