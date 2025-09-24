@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1758741465 source:u:\poo\aula06\contador\src\contador.cpp
+	"Contador.h"
+
+1758742007 u:\poo\aula06\contador\include\contador.h
+
+1758742799 source:u:\poo\aula06\contador\main.cpp
+	<iostream>
+	<Decrementa.h>
+
+1758741853 source:u:\poo\aula06\contador\src\decrementa.cpp
+	"Decrementa.h"
+
+1758742708 u:\poo\aula06\contador\include\decrementa.h
+	<Contador.h>
+

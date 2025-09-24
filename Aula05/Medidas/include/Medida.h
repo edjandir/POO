@@ -5,6 +5,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Medida
 {
     public:
@@ -16,6 +18,11 @@ class Medida
         void Setmetro(int val) { metro = val; }
         double Getcentimetro() { return centimetro; }
         void Setcentimetro(int val) { centimetro = val; }
+        void getMedida();
+        void mostraMedida();
+
+        Medida operator + (Medida);
+        friend double quadrado(Medida);
 
     protected:
 
