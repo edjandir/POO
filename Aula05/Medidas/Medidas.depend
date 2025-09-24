@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1758139916 source:u:\poo\aula05\medidas\src\medida.cpp
+	"Medida.h"
+
+1758139895 u:\poo\aula05\medidas\include\medida.h
+	<iostream>
+
+1758139056 source:u:\poo\aula05\medidas\main.cpp
+	<iostream>
+	<Medida.h>
+	<locale.h>
+

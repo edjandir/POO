@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1758135141 source:u:\poo\aula05\contador\main.cpp
+	<iostream>
+	<Contador.h>
+
+1758135976 u:\poo\aula05\contador\include\contador.h
+
+1758135976 source:u:\poo\aula05\contador\src\contador.cpp
+	"Contador.h"
+
