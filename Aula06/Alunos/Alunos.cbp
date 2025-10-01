@@ -34,8 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Aluno.h" />
+		<Unit filename="include/Consulta.h" />
+		<Unit filename="include/Medico.h" />
 		<Unit filename="include/Pessoa.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Aluno.cpp" />
+		<Unit filename="src/Consulta.cpp" />
+		<Unit filename="src/Medico.cpp" />
 		<Unit filename="src/Pessoa.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

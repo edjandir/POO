@@ -1,6 +1,9 @@
 #include <iostream>
 #include <locale>
 #include <Pessoa.h>
+#include <Aluno.h>
+#include <Medico.h>
+#include <Consulta.h>
 
 using namespace std;
 
@@ -12,12 +15,33 @@ Crie duas classes:
 e com parâmetros e uma função para mostrar seus dados.
 -Programa: crie dois alunos e mostre seus dados na tela.
 
+-Crie a classe Medico derivada de pessoa com os atributos crm, especialidade , ambos do tipo string.
+-instanciar a classe na função main e mostrar as informações
+
+-Crie a classe Consulta. Os atributos são: paciente (Pessoa), medico (Medico), data (string).
+Construtor com parâmetros e a função mostra(). Na função mostra, mostrar:
+-Data, nome do paciente, nome do médico e a especialidade.
+
+-Crie a classe contato com os seguintes atributos:
+email, celular, logradouro, cidade, uf, todos do tipo string.
+Modifique a classe Pessoa para associar o endereço.
+Na função main() criar um endereço e passar para a pessoa.
+
+
 */
+
+
 
 int main()
 {
     setlocale(LC_ALL, "Portuguese_Brazil");
-    Pessoa p("José", "jose@email.com", 48);
-    p.mostra();
+    Aluno a("José", "jose@email.com", 48, "Sistemas embarcados", "123456");
+    a.mostra();
+    cout << endl << "=================================" << endl;
+    Medico m("Manuel", "manuel@email.com", 50, "SC456", "Ortopedista");
+    m.mostra();
+
+    Consulta c(&a, &m, "01/10/2025");
+    c.mostra();
     return 0;
 }

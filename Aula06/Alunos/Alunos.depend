@@ -1,12 +1,35 @@
 # depslib dependency file v1.0
-1759339631 source:u:\poo\aula06\alunos\main.cpp
+1759347241 source:u:\poo\aula06\alunos\main.cpp
 	<iostream>
 	<locale>
 	<Pessoa.h>
+	<Aluno.h>
+	<Medico.h>
+	<Consulta.h>
 
 1759339586 u:\poo\aula06\alunos\include\pessoa.h
 	<iostream>
 
 1759339607 source:u:\poo\aula06\alunos\src\pessoa.cpp
 	"Pessoa.h"
+
+1759340458 source:u:\poo\aula06\alunos\src\aluno.cpp
+	"Aluno.h"
+
+1759340638 u:\poo\aula06\alunos\include\aluno.h
+	<Pessoa.h>
+
+1759341509 source:u:\poo\aula06\alunos\src\medico.cpp
+	"Medico.h"
+
+1759341446 u:\poo\aula06\alunos\include\medico.h
+	<Pessoa.h>
+
+1759347199 u:\poo\aula06\alunos\include\consulta.h
+	<Pessoa.h>
+	<Medico.h>
+	<iostream>
+
+1759348303 source:u:\poo\aula06\alunos\src\consulta.cpp
+	"Consulta.h"
 
