@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1759339631 source:u:\poo\aula06\alunos\main.cpp
+	<iostream>
+	<locale>
+	<Pessoa.h>
+
+1759339586 u:\poo\aula06\alunos\include\pessoa.h
+	<iostream>
+
+1759339607 source:u:\poo\aula06\alunos\src\pessoa.cpp
+	"Pessoa.h"
+
