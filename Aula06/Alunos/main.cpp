@@ -4,6 +4,7 @@
 #include <Aluno.h>
 #include <Medico.h>
 #include <Consulta.h>
+#include <vector>
 
 using namespace std;
 
@@ -34,6 +35,7 @@ Na função main() criar um endereço e passar para a pessoa.
 
 int main()
 {
+    vector lista
     setlocale(LC_ALL, "Portuguese_Brazil");
     Aluno a("José", "jose@email.com", 48, "Sistemas embarcados", "123456");
     a.mostra();
@@ -43,5 +45,30 @@ int main()
 
     Consulta c(&a, &m, "01/10/2025");
     c.mostra();
+
+
+    Cliente c1("Jose", "123..", "(48)98888",
+                "jose@email.com");
+
+    Produto p1(1, "Banana", 5);
+    Produto p2(1, "Laranja", 3);
+
+    PedidoItem item1(&p1, 3, 10);
+    PedidoItem item2(&p2, 4, 15);
+
+    Pedido pedido(c1, "08/10/2025");
+    pedido.inclui_item(item1);
+    pedido.inclui_item(item2);
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }

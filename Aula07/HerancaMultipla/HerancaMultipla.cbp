@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Alunos" />
+		<Option title="HerancaMultipla" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Alunos" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/HerancaMultipla" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Alunos" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/HerancaMultipla" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,17 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Aluno.h" />
-		<Unit filename="include/Consulta.h" />
-		<Unit filename="include/Medico.h" />
-		<Unit filename="include/Pedido.h" />
-		<Unit filename="include/Pessoa.h" />
+		<Unit filename="include/Estudante.h" />
+		<Unit filename="include/Funcionario.h" />
+		<Unit filename="include/Gestor.h" />
+		<Unit filename="include/Professor.h" />
+		<Unit filename="include/Tecnico.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Aluno.cpp" />
-		<Unit filename="src/Consulta.cpp" />
-		<Unit filename="src/Medico.cpp" />
-		<Unit filename="src/Pedido.cpp" />
-		<Unit filename="src/Pessoa.cpp" />
+		<Unit filename="src/Estudante.cpp" />
+		<Unit filename="src/Funcionario.cpp" />
+		<Unit filename="src/Gestor.cpp" />
+		<Unit filename="src/Professor.cpp" />
+		<Unit filename="src/Tecnico.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1761159747 source:u:\poo\aula07\herancamultipla\main.cpp
+	<iostream>
+	<Gestor.h>
+	<Professor.h>
+	<Tecnico.h>
+	<Estudante.h>
+	<iostream>
+
+1761155497 source:u:\poo\aula07\herancamultipla\src\estudante.cpp
+	"Estudante.h"
+
+1761159584 u:\poo\aula07\herancamultipla\include\estudante.h
+	<iostream>
+
+1761159814 source:u:\poo\aula07\herancamultipla\src\funcionario.cpp
+	"Funcionario.h"
+
+1761155913 u:\poo\aula07\herancamultipla\include\funcionario.h
+	<iostream>
+
+1761158293 source:u:\poo\aula07\herancamultipla\src\gestor.cpp
+	"Gestor.h"
+
+1761158319 u:\poo\aula07\herancamultipla\include\gestor.h
+	<iostream>
+	<Funcionario.h>
+	<Estudante.h>
+
+1761158577 source:u:\poo\aula07\herancamultipla\src\professor.cpp
+	"Professor.h"
+
+1761158727 u:\poo\aula07\herancamultipla\include\professor.h
+	<Funcionario.h>
+	<Estudante.h>
+
+1761158606 source:u:\poo\aula07\herancamultipla\src\tecnico.cpp
+	"Tecnico.h"
+
+1761158740 u:\poo\aula07\herancamultipla\include\tecnico.h
+	<Funcionario.h>
+
